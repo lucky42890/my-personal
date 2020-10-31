@@ -132,7 +132,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML & (S)CSS',
+    'React & Redux',
+    'Angular & RxJs',
+    'Node & Express',
+    'Serverless & Terraform',
+    'Amazon Web Service',
+    'Google Cloud Platform',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +150,31 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm John, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm John, a senior software engineer in Dubai, UAE.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I create innovative and sleek web applications and infrastructure on top of the
+              highest standards. This really pushes me to learn new technologies and best practices
+              in software and keep myself up-to-date.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Over the years, I've been a trusted resource for numerous companies who rely on my
+              skills and abilities to deliver exceptional results in a timely manner.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              <b>
+                <i>
+                  &quot;Patience, persistence and a strong belief in success can do wonders.&quot;
+                </i>
+              </b>
+            </p>
+            <p>I can bring your dreams into the reality. Let's make it real!</p>
+            <br />
+            <p>
+              <b>Core Technologies:</b>
+            </p>
           </div>
 
           <ul className="skills-list">
