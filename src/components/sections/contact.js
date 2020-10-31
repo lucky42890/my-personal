@@ -52,8 +52,8 @@ const Contact = () => {
 
       <p>
         Currently, I am actively looking for new opportunities to make the world a better place,
-        make our life easy. Whether you are interested in working with me or need my help, just drop
-        me a message. I will always be with you!
+        make things easy, make our life beautiful. Whether you are interested in working with me or
+        need my help, just drop me a message. <br /> I will always be with you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
