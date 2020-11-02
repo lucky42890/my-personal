@@ -231,6 +231,9 @@ const StyledProject = styled.div`
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(80%);
       }
+      img {
+        background: var(--navy);
+      }
     }
   }
 `;
